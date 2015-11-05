@@ -1,0 +1,49 @@
+<!-- Created by Andrew Brown -->
+<!-- 11/5/2015, CS290 -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js">
+    </script>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Weather Info</legend>
+        Zip Code:
+        <label for="zipCode"></label>
+        <input type="text" name="zipCode" id="zipCode">
+        <input type="submit" id="zipSubmit">
+    </fieldset>
+</form>
+<div>
+    <h2>Results</h2>
+    <ul>
+        <li><span>Temperature:  </span><span id="temp"></span></li>
+        <li><span>City: </span><span id="city"></span></li>
+        <li><span>Description: </span><span id="desc"></span></li>
+    </ul>
+</div>
+
+<form>
+    <fieldset>
+        <legend>Your Info</legend>
+        <input type="text" name="zipCode" id="fName">
+        <input type="text" name="zipCode" id="lName">
+        <input type="submit" id="nameSubmit">
+    </fieldset>
+</form>
+
+<div>
+    <h2>HTTPBin Results</h2>
+    <ul>
+        <li><span>Your First Name:  </span><span id="echofName"></span></li>
+        <li><span>Your Last Name: </span><span id="echolName"></span></li>
+    </ul>
+</div>
+
+
+</body>
+</html>
